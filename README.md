@@ -24,4 +24,17 @@ It is a **persona-aware intelligent document matcher** that evaluates how well a
 ---
 
 ## 📁 Project Structure
-
+```plaintext
+persona-document-matcher/
+│
+├── main.py                    # Main script to run the document-persona matcher
+├── utils.py                   # Utility functions for similarity checking
+├── requirements.txt           # List of Python dependencies
+├── Dockerfile                 # Docker configuration for containerization
+├── persona_job.json           # Sample persona/job description JSON file
+├── output.json                # Output file with similarity scores
+├── approach_explanation.md    # Explanation of the matching approach
+├── pdfs/                      # Folder containing test PDF documents
+│   └── test_document.pdf
+├── __pycache__/               # Python bytecode cache (auto-generated)
+└── README.md                  # Project documentation (this file)
