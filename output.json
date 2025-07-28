@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "input_documents": [
+            "test_document.pdf"
+        ],
+        "persona": "PhD Researcher in Computational Biology",
+        "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+        "processing_timestamp": "2025-07-28T23:40:44.131558"
+    },
+    "extracted_sections": [
+        {
+            "document": "test_document.pdf",
+            "page_number": 1,
+            "section_title": "Auto-selected section",
+            "importance_rank": 1
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "test_document.pdf",
+            "page_number": 1,
+            "refined_text": "It explains the document purpose.\nSection 1: Background\nHere we describe the background.\nSubsection 1.1: History\nSome history content here.\n. Sample Document Title\nIntroduction\nThis is the introduction text"
+        }
+    ]
+}
